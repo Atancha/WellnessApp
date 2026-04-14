@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklyGoalsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Weekly Goals Page"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:textColor="#376"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/weeklygoals"
+            android:scaleType="center"/>
+
+        <TextView
+            android:id="@+id/weeklyGoalsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weekly Goals\n\n1. Exercise 4 Times This Week\nPlan and commit to at least 4 workout sessions.\n\n2. Drink 2L of Water Daily\nStay hydrated every single day this week.\n\n3. Sleep 7–8 Hours Each Night\nPrioritize rest for better recovery and focus.\n\n4. Eat 3 Healthy Meals a Day\nAvoid skipping meals and choose nutritious options.\n\n5. Meditate for 10 Minutes Daily\nStart or end your day with a short meditation.\n\n6. Reduce Screen Time\nLimit phone use to protect your mental well-being.\n\n7. Walk 7,000 Steps a Day\nStay active throughout the day with regular walks.\n\n8. Cook at Home 5 Days\nHome-cooked meals are healthier and budget-friendly.\n\n9. Read or Learn Something New\nDedicate 15 minutes daily to personal growth.\n\n10. Reflect on Your Week\nEvery Sunday, review what went well and what to improve."
+            android:textSize="16sp"
+            android:padding="16dp"/>
+    </LinearLayout>
+
+</ScrollView>

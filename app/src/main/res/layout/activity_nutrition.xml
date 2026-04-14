@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutritionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nutrition Page"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:textColor="#376"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/image5"
+            android:scaleType="center"/>
+
+        <TextView
+            android:id="@+id/nutritionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrition Guide\n\n1. Eat a Balanced Diet\nInclude proteins, carbs, fats, and vitamins daily.\n\n2. Include More Vegetables\nAim for at least 3 servings of veggies per day.\n\n3. Choose Whole Grains\nSwap white rice and bread for whole grain options.\n\n4. Limit Processed Foods\nAvoid packaged snacks high in salt and sugar.\n\n5. Eat Healthy Fats\nAvocados, nuts, and olive oil support brain health.\n\n6. Don't Skip Breakfast\nA nutritious breakfast fuels your body for the day.\n\n7. Control Portion Sizes\nEating the right amount prevents overeating.\n\n8. Add More Protein\nEggs, beans, and lean meat help build and repair muscle.\n\n9. Reduce Sugar Intake\nToo much sugar leads to energy crashes and weight gain.\n\n10. Plan Your Meals\nMeal prepping helps you make healthier food choices."
+            android:textSize="16sp"
+            android:padding="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rewardAd"
+            android:text="Get reward"
+            android:textSize="32sp"
+            android:backgroundTint="#456"/>
+    </LinearLayout>
+
+</ScrollView>
